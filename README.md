@@ -7,12 +7,12 @@ If you work solely with Docker, this box lets you keep your Vagrant workflow and
 
 ## Usage
 
-The box is available on [Hashicrop's Atlas](https://atlas.hashicorp.com/dduportal/boxes/boot2docker), making it very easy to use it:
+The box is available on [Hashicrop's Atlas](https://atlas.hashicorp.com/chris-redekop/boxes/boot2docker), making it very easy to use it:
 
-    $ vagrant init dduportal/boot2docker
+    $ vagrant init chris-redekop/boot2docker
     $ vagrant up
 
-If you want the actual box source file, you can download it from the [tags page](https://github.com/dduportal/boot2docker-vagrant-box/tags).
+If you want the actual box source file, you can download it from the [tags page](https://github.com/chris-redekop/boot2docker-vagrant-box).
 
 On OS X, to use the docker client, follow the directions here: http://docs.docker.io/installation/mac/#docker-os-x-client (you'll need to export `DOCKER_HOST`). You should then be able to to run `docker version` from the host. [Homebrew](http://brew.sh) can also a good installation medium with ```brew update && brew install docker```
 

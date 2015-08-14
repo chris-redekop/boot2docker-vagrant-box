@@ -1,6 +1,6 @@
 {
     "push": {
-        "name": "dduportal/boot2docker"
+        "name": "chris-redekop/boot2docker"
     },
     "variables": {
         "B2D_ISO_FILE": "boot2docker.iso",
